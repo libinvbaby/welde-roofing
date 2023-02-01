@@ -12625,7 +12625,7 @@ input[type="button"].btn-block {
     padding-left: 0;
   }
   .home{
-    background: url("../images/solar.gif");
+    background: url("../images/touhend-glass.gif");
  
   }
 }
@@ -18633,7 +18633,7 @@ html {
 }
 
 .home {
-  background: url("../images/solar.gif");
+  background: url("../images/touhend-glass.gif");
   background-size: cover;
   background-position: 0 -50px;
   padding-top: 80px;
@@ -19078,3 +19078,25 @@ section {
   padding: 10px;
   font-size: 16px;
  }
+
+ .item img{
+  height: 250px;
+ }
+ .partner-slider {
+  height: 150px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top:15px;
+}
+.partner-item img {
+  height: 80px;
+  width: 150%;
+  margin: 0 auto;
+  padding:10px;
+
+}
+.partner-slider:after {
+  content: "";
+  display: table;
+  clear: both;
+}

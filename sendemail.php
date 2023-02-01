@@ -22,14 +22,14 @@ $mail = new PHPMailer(true);
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'GMAIL';
-$mail->Password = 'password';
+$mail->Username = 'vblibin885@gmail.com';
+$mail->Password = 'xpcqyghkvbfqaiee';
 $mail->SMTPSecure = 'ssl';
 $mail->Port = 465;
 
 // Set the recipient, subject, and message
 $mail->setFrom($email, $name);
-$mail->addAddress('GMAIL');
+$mail->addAddress('vblibin885@gmail.com');
 $mail->Subject = 'New Contact Form Submission from Solar Landing Page';
 $mail->Body = "
 <table style='border-collapse: collapse; width: 100%;'>
