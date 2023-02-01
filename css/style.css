@@ -19155,6 +19155,18 @@ background-image: linear-gradient(45deg, #8bff95 0%, #2bff9d 52%, #2BFF88 90%);
   justify-content: center; 
   flex-direction: column; 
 }
+.overlay-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
 
 
 .close {
