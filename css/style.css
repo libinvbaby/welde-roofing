@@ -10236,6 +10236,9 @@ pre code {
   .table-responsive-md > .table-bordered {
     border: 0;
   }
+  .item img{
+    height: 150px!important;
+   }
 }
 
 @media (max-width: 991.98px) {
@@ -19111,6 +19114,7 @@ section {
  .item img{
   height: 250px;
  }
+
  .partner-slider {
   height: 150px;
   width: 100%;
