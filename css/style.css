@@ -12656,7 +12656,7 @@ input[type="button"].btn-block {
     padding-left: 0;
   }
   .home{
-    background: url("../images/touhend-glass.gif");
+    background: url("../images/gla");
  
   }
 }
@@ -18664,7 +18664,7 @@ html {
 }
 
 .home {
-  background: url("../images/touhend-glass.gif");
+  background: url("../images/gla");
   background-size: cover;
   background-position: 0 -15px;
   padding-top: 80px;
